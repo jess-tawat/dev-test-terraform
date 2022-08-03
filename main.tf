@@ -8,11 +8,6 @@ terraform {
     }
   }
 
-  cloud {
-    organization = "nconnectgroup"
-  }
-}
-
 provider "aws" {
   region = "ap-southeast-2"
 }
