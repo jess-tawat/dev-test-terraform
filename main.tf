@@ -7,6 +7,7 @@ terraform {
       source = "hashicorp/random"
     }
   }
+}
 
 provider "aws" {
   region = "ap-southeast-2"
