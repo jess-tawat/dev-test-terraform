@@ -30,7 +30,7 @@ jobs:
       with:
         aws-region: ap-southeast-2
         role-to-assume: arn:aws:iam::443821271488:oidc-provider/token.actions.githubusercontent.com
-        role-session-name: GithubActionsSession
+        role-session-name: github-actions
     
     - name: Write AWS Credentials to config
       run: |
