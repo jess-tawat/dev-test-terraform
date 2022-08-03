@@ -10,10 +10,6 @@ terraform {
 
   cloud {
     organization = "nconnectgroup"
-
-    workspaces {
-      name = "gh-action-dev"
-    }
   }
 }
 
